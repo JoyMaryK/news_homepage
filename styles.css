@@ -15,9 +15,9 @@ body{
     
 }
 .navbar{
-    margin: 10px;
+    margin: 5px;
     display: grid;
-    grid-template-columns: 500px repeat(5,1fr);   
+    grid-template-columns: 45% repeat(5,1fr);   
     align-items: center;
        
 }
@@ -53,9 +53,9 @@ body{
 .middle{
     display: grid;
     grid-template-columns: 2fr 1fr;
-    gap: 19px;
+    gap: 29px;
     grid-auto-rows: 400px;
-
+    
 }
 
 
@@ -74,7 +74,8 @@ body{
     font-size: 40px;
 }
 .middleLeftDetails p{
-    color: hsl(236, 13%, 42%)
+    color: hsl(236, 13%, 42%);
+    font-size: 14px;
 }
 
 .middleLeftDetails button{
@@ -96,18 +97,19 @@ body{
 
 .middleRight h2{
     color: hsl(35, 77%, 62%);
-    font-size: 27px;
+    font-size: 20px;
     margin: 5px;
     margin-left: 10px;
     padding: 5px;
 }
 .middleRight h3{
-    font-size: 17px;
+    font-size: 14px;
     font-weight: 700;
 
 }
 .middleRight p{
     font-weight: 200;
+    font-size: 14px;
 }
 .hydrogen, .ai, .vc{
     margin: 10px;
@@ -126,7 +128,7 @@ body{
     
     display: grid;
     grid-template-columns: 1fr 2fr;
-    column-gap: 10px;
+    gap: 20px;
 
 }
 .news01 img, .news02 img, .news03 img{
@@ -136,8 +138,10 @@ body{
 }
 .news01 h2, .news02 h2, .news03 h2{
     padding: 5px;
+    font-size: 14px;
+    margin-bottom: 5px;
 }
 .news01 span, .news02 span, .news03 span{
      font-size: 12px;
-     color: hsl(233, 8%, 79%);
+     color: hsl(236, 13%, 42%);
 }
