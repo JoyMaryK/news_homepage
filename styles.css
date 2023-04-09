@@ -1,0 +1,143 @@
+@import url(https://fonts.google.com/specimen/Inter);
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    font-family: Inter;
+    display: grid;
+    place-items: center;
+    height: 100vh;
+   
+}
+.container{
+    width: 70%;
+    
+}
+.navbar{
+    margin: 10px;
+    display: grid;
+    grid-template-columns: 500px repeat(5,1fr);   
+    align-items: center;
+       
+}
+.popular{
+    grid-column: 5;
+    color: hsl(236, 13%, 42%);
+}
+.new{
+    grid-column: 3;
+    color: hsl(236, 13%, 42%);
+
+}
+.categories{
+    grid-column: 6;
+    color: hsl(236, 13%, 42%);
+
+}
+.home{
+    grid-column: 2;
+    color: hsl(236, 13%, 42%);
+
+}.w{
+    grid-column:1;
+    font-size: 30px;
+    font-weight: 900;
+}
+.trending{
+    grid-column: 4;
+    color: hsl(236, 13%, 42%);
+    grid-row: 1;
+}
+
+.middle{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 19px;
+    grid-auto-rows: 400px;
+
+}
+
+
+.middleLeft img{
+    width: 100%;
+    height: 60%;
+}
+.middleLeftDetails{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap:10px;
+   margin-top: 10px;
+    margin-bottom: 15px;
+}
+.middleLeftDetails h1{
+    font-size: 40px;
+}
+.middleLeftDetails p{
+    color: hsl(236, 13%, 42%)
+}
+
+.middleLeftDetails button{
+    color: white;
+    background-color: hsl(5, 85%, 63%);
+    border: none;
+    padding: 10px;
+    margin-top:10px;
+    
+}
+
+.middleRight{
+    background-color:hsl(240, 100%, 5%);
+    color: white;
+    display: grid;
+    grid-template-rows: 40px repeat( 3, 1fr);
+    width: 90%;
+}
+
+.middleRight h2{
+    color: hsl(35, 77%, 62%);
+    font-size: 27px;
+    margin: 5px;
+    margin-left: 10px;
+    padding: 5px;
+}
+.middleRight h3{
+    font-size: 17px;
+    font-weight: 700;
+
+}
+.middleRight p{
+    font-weight: 200;
+}
+.hydrogen, .ai, .vc{
+    margin: 10px;
+    padding: 5px;
+    
+}
+.hydrogen, .ai{
+    border-bottom: 1px solid white;
+}
+.bottomBar{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 20px;
+}
+.news01, .news02, .news03{
+    
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    column-gap: 10px;
+
+}
+.news01 img, .news02 img, .news03 img{
+    width: 100%;
+    height: 100%;
+    
+}
+.news01 h2, .news02 h2, .news03 h2{
+    padding: 5px;
+}
+.news01 span, .news02 span, .news03 span{
+     font-size: 12px;
+     color: hsl(233, 8%, 79%);
+}
